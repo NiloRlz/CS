@@ -54,7 +54,7 @@
             btn_sum.BackColor = Color.DarkOrange;
             btn_sum.FlatStyle = FlatStyle.Popup;
             btn_sum.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_sum.ForeColor = SystemColors.ButtonHighlight;
+            btn_sum.ForeColor = SystemColors.ActiveCaptionText;
             btn_sum.Location = new Point(159, 318);
             btn_sum.Name = "btn_sum";
             btn_sum.Size = new Size(45, 45);
@@ -68,7 +68,7 @@
             btn0.BackColor = Color.DarkOrange;
             btn0.FlatStyle = FlatStyle.Popup;
             btn0.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btn0.ForeColor = SystemColors.ButtonHighlight;
+            btn0.ForeColor = SystemColors.ActiveCaptionText;
             btn0.Location = new Point(32, 318);
             btn0.Name = "btn0";
             btn0.Size = new Size(45, 45);
@@ -180,7 +180,7 @@
             btn_rest.BackColor = Color.DarkOrange;
             btn_rest.FlatStyle = FlatStyle.Popup;
             btn_rest.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_rest.ForeColor = SystemColors.ButtonHighlight;
+            btn_rest.ForeColor = SystemColors.ActiveCaptionText;
             btn_rest.Location = new Point(96, 318);
             btn_rest.Name = "btn_rest";
             btn_rest.Size = new Size(45, 45);
@@ -320,7 +320,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
-            ClientSize = new Size(299, 396);
+            ClientSize = new Size(298, 391);
             Controls.Add(tbx);
             Controls.Add(btn_retroceder);
             Controls.Add(btn_igual);

@@ -34,7 +34,7 @@ namespace calculadora_c
             operador = "+";
             primero = double.Parse(tbx.Text);
             tbx.Text = "+";
-           
+
         }
 
         private void btn3_Click(object sender, EventArgs e)
@@ -70,10 +70,10 @@ namespace calculadora_c
 
         private void btn_punto_Click(object sender, EventArgs e)
         {
-            tbx.Text += ".";    
+            tbx.Text += ".";
 
         }
-      
+
 
         private void btn_rest_Click(object sender, EventArgs e)
         {
@@ -81,7 +81,7 @@ namespace calculadora_c
             primero = double.Parse(tbx.Text);
             tbx.Text = "-";
             tbx.Clear();
-            
+
         }
 
         private void btn_mult_Click(object sender, EventArgs e)
@@ -184,5 +184,7 @@ namespace calculadora_c
         {
 
         }
+
+
     }
 }
