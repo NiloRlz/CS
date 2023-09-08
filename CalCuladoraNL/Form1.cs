@@ -9,17 +9,20 @@ namespace calculadora_c
         {
             InitializeComponent();
         }
-
-        private void AgregaNumero(string numero)
+        private void LeerNumero(string numero)
         {
-            if (tbx.Text == "0")
-            
-                tbx.Text = "";
-            tbx.Text += numero;
+            if (tbx.Text == "0" && tbx.Text != null)
+            {
+                tbx.Text = numero;
+            }
+            else
+            {
+                tbx.Text += numero;
+            }
 
-                
-            
+
         }
+
 
         clases.CIsSuma obj = new clases.CIsSuma();
         clases.CIsResta obj2 = new clases.CIsResta();
@@ -30,64 +33,62 @@ namespace calculadora_c
         {
             operador = "+";
             primero = double.Parse(tbx.Text);
-            tbx.Clear();
+            tbx.Text = "+";
+           
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
-            tbx.Text = tbx.Text + "2";
-          
+            LeerNumero("2");
+
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
-            tbx.Text = tbx.Text + "8";
+            LeerNumero("8");
         }
 
         private void btn5_Click(object sender, EventArgs e)
         {
-            tbx.Text = tbx.Text + "5";
+            LeerNumero("5");
         }
 
         private void btn6_Click(object sender, EventArgs e)
         {
-            tbx.Text = tbx.Text + "6";
+            LeerNumero("6");
         }
 
         private void btn7_Click(object sender, EventArgs e)
         {
-            tbx.Text = tbx.Text + "7";
+            LeerNumero("7");
         }
 
         private void btn9_Click(object sender, EventArgs e)
         {
-            tbx.Text = tbx.Text + "9";
+            LeerNumero("9");
         }
 
         private void btn_punto_Click(object sender, EventArgs e)
         {
-            tbx.Text = tbx.Text + ".";
+            tbx.Text += ".";    
 
         }
-        private void btn_sum_Click(object sender, EventArgs e)
-        {
-            operador = "+";
-            primero = double.Parse(tbx.Text);
-            tbx.Clear();
-
-        }
+      
 
         private void btn_rest_Click(object sender, EventArgs e)
         {
             operador = "-";
             primero = double.Parse(tbx.Text);
+            tbx.Text = "-";
             tbx.Clear();
+            
         }
 
         private void btn_mult_Click(object sender, EventArgs e)
         {
             operador = "*";
             primero = double.Parse(tbx.Text);
+            tbx.Text = "x";
             tbx.Clear();
         }
 
@@ -129,17 +130,18 @@ namespace calculadora_c
 
         private void btn1_Click_1(object sender, EventArgs e)
         {
-            tbx.Text = tbx.Text + "1";
+            LeerNumero("1");
+
         }
 
         private void btn3_Click_1(object sender, EventArgs e)
         {
-            tbx.Text = tbx.Text + "3";
+            LeerNumero("3");
         }
 
         private void btn4_Click_1(object sender, EventArgs e)
         {
-            tbx.Text = tbx.Text + "4";
+            LeerNumero("4");
         }
 
         private void btn_elim_Click(object sender, EventArgs e)
@@ -157,7 +159,15 @@ namespace calculadora_c
 
         private void btn0_Click_1(object sender, EventArgs e)
         {
-            tbx.Text = tbx.Text + "0";
+            if (tbx.Text == "0")
+            {
+                return;
+            }
+            else
+            {
+                tbx.Text += "0";
+            }
+
         }
 
         private void label1_Click(object sender, EventArgs e)

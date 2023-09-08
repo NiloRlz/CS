@@ -51,9 +51,10 @@
             // 
             // btn_sum
             // 
-            btn_sum.BackColor = SystemColors.ButtonFace;
+            btn_sum.BackColor = Color.DarkOrange;
             btn_sum.FlatStyle = FlatStyle.Popup;
             btn_sum.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_sum.ForeColor = SystemColors.ButtonHighlight;
             btn_sum.Location = new Point(159, 318);
             btn_sum.Name = "btn_sum";
             btn_sum.Size = new Size(45, 45);
@@ -64,9 +65,10 @@
             // 
             // btn0
             // 
-            btn0.BackColor = SystemColors.ButtonFace;
+            btn0.BackColor = Color.DarkOrange;
             btn0.FlatStyle = FlatStyle.Popup;
             btn0.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btn0.ForeColor = SystemColors.ButtonHighlight;
             btn0.Location = new Point(32, 318);
             btn0.Name = "btn0";
             btn0.Size = new Size(45, 45);
@@ -77,9 +79,10 @@
             // 
             // btn7
             // 
-            btn7.BackColor = SystemColors.ButtonFace;
+            btn7.BackColor = SystemColors.ControlDarkDark;
             btn7.FlatStyle = FlatStyle.Popup;
             btn7.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btn7.ForeColor = SystemColors.ButtonHighlight;
             btn7.Location = new Point(32, 165);
             btn7.Name = "btn7";
             btn7.Size = new Size(45, 45);
@@ -90,9 +93,10 @@
             // 
             // btn4
             // 
-            btn4.BackColor = SystemColors.ButtonFace;
+            btn4.BackColor = SystemColors.ControlDarkDark;
             btn4.FlatStyle = FlatStyle.Popup;
             btn4.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btn4.ForeColor = SystemColors.ButtonHighlight;
             btn4.Location = new Point(32, 216);
             btn4.Name = "btn4";
             btn4.Size = new Size(45, 45);
@@ -103,9 +107,10 @@
             // 
             // btn1
             // 
-            btn1.BackColor = SystemColors.ButtonFace;
+            btn1.BackColor = SystemColors.ControlDarkDark;
             btn1.FlatStyle = FlatStyle.Popup;
             btn1.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btn1.ForeColor = SystemColors.ButtonHighlight;
             btn1.Location = new Point(32, 267);
             btn1.Name = "btn1";
             btn1.Size = new Size(45, 45);
@@ -116,9 +121,10 @@
             // 
             // btn2
             // 
-            btn2.BackColor = SystemColors.ButtonFace;
+            btn2.BackColor = SystemColors.ControlDarkDark;
             btn2.FlatStyle = FlatStyle.Popup;
             btn2.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btn2.ForeColor = SystemColors.ButtonHighlight;
             btn2.Location = new Point(96, 267);
             btn2.Name = "btn2";
             btn2.Size = new Size(45, 45);
@@ -129,9 +135,10 @@
             // 
             // btn5
             // 
-            btn5.BackColor = SystemColors.ButtonFace;
+            btn5.BackColor = SystemColors.ControlDarkDark;
             btn5.FlatStyle = FlatStyle.Popup;
             btn5.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btn5.ForeColor = SystemColors.ButtonHighlight;
             btn5.Location = new Point(96, 216);
             btn5.Name = "btn5";
             btn5.Size = new Size(45, 45);
@@ -142,9 +149,10 @@
             // 
             // btn8
             // 
-            btn8.BackColor = SystemColors.ButtonFace;
+            btn8.BackColor = SystemColors.ControlDarkDark;
             btn8.FlatStyle = FlatStyle.Popup;
             btn8.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btn8.ForeColor = SystemColors.ButtonHighlight;
             btn8.Location = new Point(96, 165);
             btn8.Name = "btn8";
             btn8.Size = new Size(45, 45);
@@ -155,9 +163,10 @@
             // 
             // btn_punto
             // 
-            btn_punto.BackColor = SystemColors.ButtonFace;
+            btn_punto.BackColor = SystemColors.ControlDarkDark;
             btn_punto.FlatStyle = FlatStyle.Popup;
             btn_punto.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_punto.ForeColor = SystemColors.ButtonHighlight;
             btn_punto.Location = new Point(96, 114);
             btn_punto.Name = "btn_punto";
             btn_punto.Size = new Size(45, 45);
@@ -168,9 +177,10 @@
             // 
             // btn_rest
             // 
-            btn_rest.BackColor = SystemColors.ButtonFace;
+            btn_rest.BackColor = Color.DarkOrange;
             btn_rest.FlatStyle = FlatStyle.Popup;
             btn_rest.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_rest.ForeColor = SystemColors.ButtonHighlight;
             btn_rest.Location = new Point(96, 318);
             btn_rest.Name = "btn_rest";
             btn_rest.Size = new Size(45, 45);
@@ -181,9 +191,10 @@
             // 
             // btn3
             // 
-            btn3.BackColor = SystemColors.ButtonFace;
+            btn3.BackColor = SystemColors.ControlDarkDark;
             btn3.FlatStyle = FlatStyle.Popup;
             btn3.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btn3.ForeColor = SystemColors.ButtonHighlight;
             btn3.Location = new Point(159, 267);
             btn3.Name = "btn3";
             btn3.Size = new Size(45, 45);
@@ -194,9 +205,10 @@
             // 
             // btn6
             // 
-            btn6.BackColor = SystemColors.ButtonFace;
+            btn6.BackColor = SystemColors.ControlDarkDark;
             btn6.FlatStyle = FlatStyle.Popup;
             btn6.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btn6.ForeColor = SystemColors.ButtonHighlight;
             btn6.Location = new Point(159, 216);
             btn6.Name = "btn6";
             btn6.Size = new Size(45, 45);
@@ -207,9 +219,10 @@
             // 
             // btn9
             // 
-            btn9.BackColor = SystemColors.ButtonFace;
+            btn9.BackColor = SystemColors.ControlDarkDark;
             btn9.FlatStyle = FlatStyle.Popup;
             btn9.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btn9.ForeColor = SystemColors.ButtonHighlight;
             btn9.Location = new Point(159, 165);
             btn9.Name = "btn9";
             btn9.Size = new Size(45, 45);
@@ -220,10 +233,10 @@
             // 
             // btn_mult
             // 
-            btn_mult.BackColor = SystemColors.WindowFrame;
+            btn_mult.BackColor = Color.DarkOrange;
             btn_mult.FlatStyle = FlatStyle.Popup;
             btn_mult.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_mult.ForeColor = SystemColors.ButtonHighlight;
+            btn_mult.ForeColor = SystemColors.ActiveCaptionText;
             btn_mult.Location = new Point(223, 216);
             btn_mult.Name = "btn_mult";
             btn_mult.Size = new Size(45, 45);
@@ -234,10 +247,10 @@
             // 
             // btn_igual
             // 
-            btn_igual.BackColor = SystemColors.WindowFrame;
+            btn_igual.BackColor = Color.DarkOrange;
             btn_igual.FlatStyle = FlatStyle.Popup;
             btn_igual.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_igual.ForeColor = SystemColors.ButtonHighlight;
+            btn_igual.ForeColor = SystemColors.ActiveCaptionText;
             btn_igual.Location = new Point(223, 267);
             btn_igual.Name = "btn_igual";
             btn_igual.Size = new Size(45, 96);
@@ -248,9 +261,10 @@
             // 
             // btn_elim
             // 
-            btn_elim.BackColor = SystemColors.ButtonFace;
+            btn_elim.BackColor = Color.Red;
             btn_elim.FlatStyle = FlatStyle.Popup;
             btn_elim.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_elim.ForeColor = SystemColors.ButtonHighlight;
             btn_elim.Location = new Point(32, 114);
             btn_elim.Name = "btn_elim";
             btn_elim.Size = new Size(45, 45);
@@ -261,10 +275,10 @@
             // 
             // btn_div
             // 
-            btn_div.BackColor = SystemColors.WindowFrame;
+            btn_div.BackColor = Color.DarkOrange;
             btn_div.FlatStyle = FlatStyle.Popup;
             btn_div.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_div.ForeColor = SystemColors.ButtonHighlight;
+            btn_div.ForeColor = SystemColors.ActiveCaptionText;
             btn_div.Location = new Point(223, 165);
             btn_div.Name = "btn_div";
             btn_div.Size = new Size(45, 45);
@@ -275,9 +289,10 @@
             // 
             // btn_retroceder
             // 
-            btn_retroceder.BackColor = SystemColors.ButtonFace;
+            btn_retroceder.BackColor = SystemColors.ControlDarkDark;
             btn_retroceder.FlatStyle = FlatStyle.Popup;
             btn_retroceder.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_retroceder.ForeColor = SystemColors.ButtonHighlight;
             btn_retroceder.Location = new Point(159, 114);
             btn_retroceder.Name = "btn_retroceder";
             btn_retroceder.Size = new Size(109, 45);
@@ -288,8 +303,8 @@
             // 
             // tbx
             // 
-            tbx.BackColor = Color.FromArgb(224, 224, 224);
-            tbx.Font = new Font("Tahoma", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            tbx.BackColor = Color.DarkSeaGreen;
+            tbx.Font = new Font("Tahoma", 27.75F, FontStyle.Regular, GraphicsUnit.Point);
             tbx.Location = new Point(32, 25);
             tbx.Multiline = true;
             tbx.Name = "tbx";
@@ -304,8 +319,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Black;
-            ClientSize = new Size(311, 420);
+            BackColor = Color.FromArgb(64, 64, 64);
+            ClientSize = new Size(299, 396);
             Controls.Add(tbx);
             Controls.Add(btn_retroceder);
             Controls.Add(btn_igual);
